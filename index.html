@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  
+    <style>
+        body
+        {
+            background-color: rgba(0, 0, 0, 0.863);
+        }
+        #video
+        {
+            margin-top: 5%;
+            margin-bottom: 20%;
+            margin-left: 27%;
+        }
+        #heading
+        {
+            color: rgba(0, 255, 255, 0.671);
+            text-align: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-style: italic;
+            text-decoration: underline;
+            text-decoration-color: chocolate;
+        }
+        #content
+        {
+            color: rgba(240, 255, 255, 0.61);
+            text-align: center;
+        }
+    </style>
+    
+</head>
+<body>
+    <div id="heading">
+        <h1>Video Streamer</h1>
+    </div>
+    <br>
+    <div id="content">
+        <h3>This is a video streaming system in which the video is streamed by the express server with the packet size of 1MB. </h3>
+    </div>
+    
+        <video id="video"  height="350" width="600" controls autoplay>
+            <source src="/video" type="video/mp4"/>
+        </video>
+    
+</body>
+</html>
